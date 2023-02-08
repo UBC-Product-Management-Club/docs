@@ -21,6 +21,7 @@ const config = {
   organizationName: 'UBC-Product-Management-Club', // Usually your GitHub org/user name.
   projectName: 'pmc-documentation', // Usually your repo name.
   trailingSlash: false,
+  deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
