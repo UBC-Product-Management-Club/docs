@@ -20,4 +20,4 @@ Although Vishal holds an engineering degree, he has surprisingly never written c
 
 If you are an aspiring TPM, it is essential for you to start playing with data. TPM’s work really closely with data and it is their responsibility to ensure that they always have a number associated with the decisions that they make. If you don’t have experience and don’t know where to start, you can start by picking up querying languages such as SQL and using data visualization tools such as Tableau to make sense of the data given to you. As Abhishek mentions: “If you can work really closely with the data that's going to be really helpful. If you want to get to the next level you can even learn Python or R.” Aside from being fluent in data, understanding how software works and how different systems interact with one another is also integral. “It is really important that you are able to read through a high level design of a system, understand databases, and where the data can be stored,” says Vishal.
 
-Written by: Sarah Cheng
+<i> Written by: Sarah Cheng </i>
