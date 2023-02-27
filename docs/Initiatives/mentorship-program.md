@@ -1,3 +1,5 @@
+import finale from './img/finale.jpg';
+
 # Fellowship Program
 
 At the end of the 2021-22 school year, PMC hosted a “cohort” of 6 students who wanted to learn product management. Though several workshops were hosted, Scott found that his 90-minute “Product Design” session sparked many of the participant's interests. This motivated him to create a large-scale initiative to help the community learn, develop, and deploy their product management skills in a marketable way.
