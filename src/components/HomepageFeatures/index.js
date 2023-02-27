@@ -19,7 +19,7 @@ function Feature({ Svg, title, description }) {
 export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
-      <div className="container"></div>
+      <div className="container">Hello! Welcome to PMC's page</div>
     </section>
   );
 }
