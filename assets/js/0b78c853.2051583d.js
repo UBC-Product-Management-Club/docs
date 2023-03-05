@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[1427],{7843:e=>{e.exports=JSON.parse('{"title":"Team","slug":"/category/team","permalink":"/docs/category/team","navigation":{"previous":{"title":"Fellowship Program","permalink":"/docs/Initiatives/mentorship-program"},"next":{"title":"Execs","permalink":"/docs/Team/Execs"}}}')}}]);
