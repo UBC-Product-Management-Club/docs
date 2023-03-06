@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome","permalink":"/blog/welcome"},{"title":"Explore Technical Product Management (TPM) With Vishal Soni & Abhishek Yadav","permalink":"/blog/mdx-blog-post"}]}')}}]);
