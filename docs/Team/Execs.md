@@ -4,4 +4,4 @@ sidebar_position: 1
 
 # Execs
 
-<h4> Meet the people behind PMC! </h4>
+[Meet the people behind PMC!](https://www.ubcpm.club/?fbclid=IwAR0yBCYMQY4pXlYt7qM9aGZH168zdOLu1_TbJpKRYC-JTtMVvl2Z5Wb77wU#/execs)
