@@ -12,6 +12,16 @@ Beginning in September 2022, a cohort of passionate students worked and learned 
 
 ## ▶️ Showcase
 
+After many weeks of work, our mentors learned different frameworks, worked in teams, and ultimately applied their PM skills to deliver real life case projects. [PMC is more than proud to showcase our fellows and their projects!](https://www.ubcpm.club/?fbclid=IwAR2W9tgFwfrUX6S-G6Tjh9hMR5_Xyjzg7FbbAcINrhSzsn6IbfRcZQNLrz4#/fellows)
+
+---
+
 ![Teamwork](FinaleImages/Teamwork.JPG)
+
+---
+
 ![Teamwork](FinaleImages/schedule.jpg)
+
+---
+
 ![Teamwork](FinaleImages/Showcase.JPG)
