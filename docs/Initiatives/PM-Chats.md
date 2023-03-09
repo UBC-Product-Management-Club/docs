@@ -5,4 +5,4 @@ and skillsets to speak on their career journeys. This in-person event at UBC pro
 
 ---
 
-![discover](img/discover.JPG)
+![discover](DiscoverImages/discover.JPG)
