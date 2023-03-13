@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[35],{5435:i=>{i.exports=JSON.parse('{"title":"Initiatives","slug":"/category/initiatives","permalink":"/docs/category/initiatives","navigation":{"previous":{"title":"Welcome","permalink":"/docs/intro"},"next":{"title":"Discover PM 2022","permalink":"/docs/Initiatives/PM-Chats"}}}')}}]);
