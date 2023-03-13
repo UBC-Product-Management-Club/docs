@@ -60,6 +60,18 @@ const config = {
     ],
   ],
 
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'resources',
+        path: 'resources',
+        routeBasePath: 'resources',
+        sidebarPath: require.resolve('./sidebars.js'),
+      },
+    ],
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -77,6 +89,12 @@ const config = {
             docId: 'intro',
             position: 'left',
             label: 'Welcome',
+          },
+          {
+            to: 'resources/intro',
+            docId: 'intro',
+            label: 'Resources',
+            position: 'left',
           },
           { to: '/blog', label: 'Blog', position: 'left' },
         ],
