@@ -6,8 +6,6 @@
 
 When finished these 3 tasks, create a post below!
 
-\***\*2.1 Understand your Company\*\***
-
 ## **Intro to Product Strategy**
 
 [https://youtu.be/11b2JdeHoGM](https://youtu.be/11b2JdeHoGM)
