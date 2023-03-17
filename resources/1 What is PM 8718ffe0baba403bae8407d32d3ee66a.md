@@ -14,9 +14,9 @@ A product manager "carries responsibility for overall product success," which re
 
 [According to Marty Cagan](https://www.svpg.com/four-big-risks/), The job of a product manager is to discover a product that is:
 
-- valuable (for customers)
-- usable (as designed by UX)
-- feasible (for developers)
-- viable (for the company)
+- Valuable (for customers)
+- Usable (as designed by UX)
+- Feasible (for developers)
+- Viable (for the company)
 
 With the product manager being responsible for value and viability.
