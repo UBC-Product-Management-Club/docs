@@ -1,8 +1,8 @@
 # 2.1 Proposal
 
-1. **[Understand your Company](https://community.ubcpm.club/resources/post/2-1-understand-your-company-Oc9NMUppiJEeFqC)**After deciding on a company/product, describe its vision, goals, and current value proposition.
-2. **[Discovering New Markets](https://community.ubcpm.club/resources/post/discovering-new-markets-rY4EUYdw26ppiXo)**Read the following post and brainstorm which new market (user base) you want to re-purpose your product for.
-3. **[Setting Objectives & Metrics](https://community.ubcpm.club/resources/post/2-1-setting-objectives-metrics-FrxCjNFLSSH1yO8)**After choosing a market, narrow in on what you want think the company should achieve when expanding their product to this market.
+1. **[Understand your Company](https://community.ubcpm.club/resources/post/2-1-understand-your-company-Oc9NMUppiJEeFqC)** After deciding on a company/product, describe its vision, goals, and current value proposition.
+2. **[Discovering New Markets](https://community.ubcpm.club/resources/post/discovering-new-markets-rY4EUYdw26ppiXo)** Read the following post and brainstorm which new market (user base) you want to re-purpose your product for.
+3. **[Setting Objectives & Metrics](https://community.ubcpm.club/resources/post/2-1-setting-objectives-metrics-FrxCjNFLSSH1yO8)** After choosing a market, narrow in on what you want think the company should achieve when expanding their product to this market.
 
 When finished these 3 tasks, create a post below!
 
@@ -30,7 +30,7 @@ Right now, you need to consider the company's **current** customer and **curr
 
 You can address these 3 points in a short paragraph, bullet points, or your own format/framework.
 
-# \***\*2.1 Discovering New Markets\*\***
+# Discovering New Markets
 
 Products are usually built for a specific niche market, then later **expanded** or **repurposed** as an apparent fit emerges within a new market.
 
@@ -45,7 +45,7 @@ Read this article from Product School on Market Opportunity Analysis, which will
 1. List out potential markets you want to break into.
 2. Conduct Market Opportunity Analysis and choose a market.
 
-# \***\*2.1 Setting Objectives & Metrics\*\***
+# Setting Objectives & Metrics
 
 In Phase 1, you may have considered an "objective" (top of the opportunity-solution tree) and perhaps added a qualitative metric to work towards. Now, we want to dive deeper into a term you've probably heard before: OKRs.
 

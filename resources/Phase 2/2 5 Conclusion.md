@@ -1,8 +1,6 @@
 # 2.5 Conclusion
 
-1. **[Conclusion](https://community.ubcpm.club/resources/post/conclusion-dOYsWrk1zDCKghO)**Bring everything together and show off your hard work!
-
-\***\*Conclusion\*\***
+1. **[Conclusion](https://community.ubcpm.club/resources/post/conclusion-dOYsWrk1zDCKghO)** Bring everything together and show off your hard work!
 
 - **Add a brief conclusion section which may include:**
   - Risks of your solution & how you might mitigate them

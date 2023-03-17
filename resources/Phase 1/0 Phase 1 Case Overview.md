@@ -1,8 +1,6 @@
-# Phase 1 Case Overview
+# Case Overview
 
-\***\*Phase 1 Case Overview\*\***
-
-## **How would you improve your favourite product?Design a new feature for your favourite software product by incorporating design and prioritization methods.**
+**How would you improve your favourite product? Design a new feature for your favourite software product by incorporating design and prioritization methods.**
 
 The favourite product question [is a classic](https://igotanoffer.com/blogs/product-manager/favorite-product-interview-question) in product manager interviews. We're taking a more in-depth approach to this question in a longer, case study format.
 

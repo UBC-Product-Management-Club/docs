@@ -12,5 +12,3 @@
 - Project Description
 
 Add these to the top of your post!
-
----

@@ -8,7 +8,7 @@
 
    When brainstorming ideas in step 1, use this framework to come up with your ideas!
 
-# \***\*Product Development Process\*\***
+# Product Development Process
 
 The product development process encompasses all steps needed to take a product from concept to market availability. This includes identifying a market need, researching the competitive landscape, conceptualizing a solution, developing a product roadmap, building a minimum viable product, etc.
 
@@ -20,7 +20,7 @@ Check out this article that covers the steps of the product development process:
 
 - Follow the 6 steps in the article above, and start brainstorming!
 
-# \***\*Opportunity-Solution Tree\*\***
+# Opportunity-Solution Tree
 
 We discussed "opportunity mapping" in Phase 1, which covered the top half of what Teresa Torres calls an "Opportunity-Solution" tree (OST).
 
