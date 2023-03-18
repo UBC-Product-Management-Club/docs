@@ -70,6 +70,15 @@ const config = {
         sidebarPath: require.resolve('./sidebars.js'),
       },
     ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'project-guidelines',
+        path: 'project-guidelines',
+        routeBasePath: 'project-guidelines',
+        sidebarPath: require.resolve('./sidebars.js'),
+      },
+    ],
   ],
 
   themeConfig:
@@ -94,6 +103,12 @@ const config = {
             to: 'resources/intro',
             docId: 'intro',
             label: 'Resources',
+            position: 'left',
+          },
+          {
+            to: 'project-guidelines/intro',
+            docId: 'intro',
+            label: 'Project Guidelines',
             position: 'left',
           },
           { to: '/blog', label: 'Blog', position: 'left' },
