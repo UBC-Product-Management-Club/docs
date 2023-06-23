@@ -3,7 +3,6 @@ import clsx from 'clsx';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import { Redirect } from '@docusaurus/router';
 
 import styles from './index.module.css';
 
@@ -22,15 +21,14 @@ function HomepageHeader() {
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    // <Layout
-    //   title={`${siteConfig.title}`}
-    //   description='Description will go into a meta tag in <head />'
-    // >
-    //   <HomepageHeader />
-    //   <main>
-    //     <HomepageFeatures />
-    //   </main>
-    // </Layout>
-    <Redirect to='/docs/intro' />
+    <Layout
+      title={`${siteConfig.title}`}
+      description='Description will go into a meta tag in <head />'
+    >
+      <HomepageHeader />
+      <main>
+        <HomepageFeatures />
+      </main>
+    </Layout>
   );
 }
