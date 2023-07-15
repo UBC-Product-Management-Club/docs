@@ -89,25 +89,25 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'PMC',
-        // logo: {
-        //   alt: "My Site Logo",
-        //   src: "img/logo.svg",
-        // },
+        title: 'UBC Product Management Club',
+        logo: {
+          alt: "PMC Logo",
+          src: "img/pmc_logo.png",
+        },
         items: [
           {
             type: 'doc',
             docId: 'intro',
-            position: 'left',
+            position: 'right',
             label: 'Welcome',
           },
           {
             to: 'resources/intro',
             docId: 'intro',
             label: 'Resources',
-            position: 'left',
+            position: 'right',
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
+          { to: '/blog', label: 'Blog', position: 'right' },
         ],
       },
       footer: {

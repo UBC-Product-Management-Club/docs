@@ -9,6 +9,8 @@
 @tailwind components;
 @tailwind utilities;
  
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap');
+
 :root {
   --ifm-color-primary: #e45d66;
   --ifm-color-primary-darker: #de4f58;
@@ -30,4 +32,8 @@
   --ifm-color-primary-lighter: #dd6b73;
   --ifm-color-primary-lightest: #dd6b73;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.navbar__item {
+  font-size: small;
 }
