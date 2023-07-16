@@ -95,19 +95,23 @@ const config = {
           src: "img/pmc_logo.png",
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'right',
-            label: 'Welcome',
-          },
-          {
-            to: 'resources/intro',
-            docId: 'intro',
-            label: 'Resources',
-            position: 'right',
-          },
-          { to: '/blog', label: 'Blog', position: 'right' },
+          // {
+          //   type: 'doc',
+          //   docId: 'intro',
+          //   position: 'right',
+          //   label: 'Welcome',
+          // },
+          // {
+          //   to: 'resources/intro',
+          //   docId: 'intro',
+          //   label: 'Resources',
+          //   position: 'right',
+          // },
+          // {to: '/blog', label: 'Blog', position: 'right' },
+          {to: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ', label: 'Modules', position:'right'},
+          {to: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ', label: 'Past Events', position:'right'},
+          {to: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ', label: 'Upcoming', position:'right'},
+          {to: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ', label: 'All Events', position:'right'},
         ],
       },
       footer: {
@@ -121,7 +125,7 @@ const config = {
       // },
       colorMode: {
         defaultMode: 'dark',
-        disableSwitch: false,
+        disableSwitch: true,
         respectPrefersColorScheme: false,
       },
     }),
