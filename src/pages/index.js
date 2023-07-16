@@ -3,6 +3,7 @@ import clsx from 'clsx';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import YourExperience from '@site/src/components/YourExperience';
 
 import styles from './index.module.css';
 
@@ -27,6 +28,7 @@ export default function Home() {
     >
       {/* <HomepageHeader /> */}
       <main>
+        <YourExperience/>
         {/* <HomepageFeatures /> */}
       </main>
     </Layout>

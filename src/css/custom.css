@@ -24,6 +24,10 @@
   background-attachment: fixed;
 }
 
+:root, :root * {
+  font-family: 'Inter', sans-serif;
+}
+
 .navbar {
   background-color: transparent;
   box-shadow: none;
