@@ -3,7 +3,7 @@ import AlumniCarousel from "./AlumniCarousel";
 
 function Alumni() {
     return (
-        <section className="flex flex-col items-center gap-y-6">
+        <section className="my-[6.87rem] flex flex-col items-center gap-y-6">
             <AlumniHeader/>
             <AlumniCarousel/>
             <SeeAllFeature className="relative bottom-12"/>
