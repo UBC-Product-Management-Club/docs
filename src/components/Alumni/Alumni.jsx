@@ -61,12 +61,14 @@ function AlumniCarousel() {
     const [currIdx, setCurrIdx] = useState(0)
     return (
         <div className="flex flex-row items-center">
-            <CarouselArrow isRight={false} className="relative left-[px]" onClick={() => (currIdx > 0 ? setCurrIdx(currIdx - 1) : null)}/>
             <div className="w-[72rem] h-[34rem] rounded-[5.4375rem] bg-[#262936] border-2 border-white
-            flex flex-wrap px-[9rem] py-[2.44rem] gap-x-[4.22rem] gap-y-[2.47rem] content-start items-center justiy-start">
-                {alumni.slice(currIdx * 4, (currIdx + 1) * 4).map((alum) => (<AlumniCard {...alum}/>))}
+            flex flex-row content-start items-center">
+                <CarouselArrow isRight={false} className="pl-[1.37rem]" onClick={() => (currIdx > 0 ? setCurrIdx(currIdx - 1) : null)}/>
+                <div className="h-[34rem] flex flex-wrap px-[6.5rem] py-[2.44rem] gap-x-[4.22rem] gap-y-[2.47rem] content-start items-center justiy-start flex-1">
+                    {alumni.slice(currIdx * 4, (currIdx + 1) * 4).map((alum) => (<AlumniCard {...alum}/>))}
+                </div>
+                <CarouselArrow isRight={true} className="pr-[1.37rem]" onClick={() => ((currIdx + 1) * 4 <= alumni.length - 1 ? setCurrIdx(currIdx + 1) : null)}/>
             </div>
-            <CarouselArrow isRight={true} onClick={() => ((currIdx + 1) * 4 <= alumni.length - 1 ? setCurrIdx(currIdx + 1) : null)}/>
         </div>
     )
 }
