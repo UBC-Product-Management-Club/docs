@@ -89,25 +89,29 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'PMC',
-        // logo: {
-        //   alt: "My Site Logo",
-        //   src: "img/logo.svg",
-        // },
+        title: 'UBC Product Management Club',
+        logo: {
+          alt: "PMC Logo",
+          src: "img/pmc_logo.png",
+        },
         items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Welcome',
-          },
-          {
-            to: 'resources/intro',
-            docId: 'intro',
-            label: 'Resources',
-            position: 'left',
-          },
-          { to: '/blog', label: 'Blog', position: 'left' },
+          // {
+          //   type: 'doc',
+          //   docId: 'intro',
+          //   position: 'right',
+          //   label: 'Welcome',
+          // },
+          // {
+          //   to: 'resources/intro',
+          //   docId: 'intro',
+          //   label: 'Resources',
+          //   position: 'right',
+          // },
+          // {to: '/blog', label: 'Blog', position: 'right' },
+          {to: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ', label: 'Modules', position:'right'},
+          {to: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ', label: 'Past Events', position:'right'},
+          {to: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ', label: 'Upcoming', position:'right'},
+          {to: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ', label: 'All Events', position:'right'},
         ],
       },
       footer: {
@@ -121,7 +125,7 @@ const config = {
       // },
       colorMode: {
         defaultMode: 'dark',
-        disableSwitch: false,
+        disableSwitch: true,
         respectPrefersColorScheme: false,
       },
     }),
