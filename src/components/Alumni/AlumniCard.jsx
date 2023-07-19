@@ -17,13 +17,13 @@ function AlumniCard({name, title, company, faculty, img}) {
             font-content">
             <img src={img} onError={imgOnError} className="w-[8rem] h-[8rem] rounded-full mt-[0.56rem] ml-[1.69rem] mr-[1.8rem]
                 drop-shadow-[0px_6px_11px_rgba(0, 0, 0, 0.25)]"/>
-            <div className="flex flex-col text-p gap-y-[1.94rem]">
+            <div className="flex flex-col text-p gap-y-[1.0rem]">
                 <div>
-                    <div className="text-h2 font-header w-[9.5rem] h-[1.875rem]">{name}</div>
+                    <div className="text-h2 font-header w-[9.5rem] h-[1.875rem] mb-1">{name}</div>
                     <div>{title}</div>
                 </div>
-                <div className="font-header flex flex-row gap-x-[0.5rem]">
-                    <text className="my-[0.25rem]">@{company}</text>
+                <div className="font-header flex flex-row gap-x-[0.5rem] mt-2">
+                    <text>@{company}</text>
                     <img src={logoLib[company]}/>
                 </div>
                 <div>Studied: {faculty}</div>
