@@ -8,7 +8,6 @@ export default function HeroContainer() { // put things in here if you want to p
       <button class="px-4 m-3 py-1 text-sm text-white font-semibold rounded-full border border-red-600 bg-red-500 hover:text-white hover:bg-red-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-red-600 focus:ring-offset-2">Start Here</button>
       <button class="px-4 m-3 py-1 text-sm text-red-600 font-semibold rounded-full border border-red-600 hover:text-white hover:bg-red-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-red-600 focus:ring-offset-2">Explore Our Programs</button>
       </div>
-      
       </> //what is this jsx wrap for??
       
     
