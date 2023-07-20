@@ -1,6 +1,7 @@
 import React from "react";
 import clsx from "clsx";
 import styles from "./styles.module.css";
+import HeroContainer from "../HeroContainer/HeroContainer";
 
 function Feature({ Svg, title, description }) {
   return (
@@ -18,8 +19,7 @@ function Feature({ Svg, title, description }) {
 
 export default function HomepageFeatures() {
   return (
-    <section className={styles.features}>
-      <div className="container">Hello! Welcome to PMC's page</div>
-    </section>
+    <HeroContainer />
+
   );
 }
