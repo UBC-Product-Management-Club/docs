@@ -5,14 +5,16 @@ export default function HeroContainer() { // put things in here if you want to p
       <>
       
       <div className="">
-      <div className="text-white text-4xl font-bold m-5">
-        BEGIN YOUR PRODUCT MANAGEMENT MASTERY.
+        <div className="text-white text-4xl font-bold m-5">
+          BEGIN YOUR PRODUCT MANAGEMENT MASTERY.
+        </div>
+        <div class="ml-3">
+          <button className="px-4 m-3 py-1 text-sm text-white font-semibold rounded-full border border-red-600 bg-red-500 hover:text-white hover:bg-red-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-red-600 focus:ring-offset-2">Start Here</button>
+          <button className="px-4 m-3 py-1 text-sm text-red-600 font-semibold rounded-full border border-red-600 hover:text-white hover:bg-red-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-red-600 focus:ring-offset-2">Explore Our Programs</button>
+        </div>
+        <img src="@site/resources/images/internshiphero.jpeg" alt="" />
       </div>
-      <div class="ml-3">
-        <button className="px-4 m-3 py-1 text-sm text-white font-semibold rounded-full border border-red-600 bg-red-500 hover:text-white hover:bg-red-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-red-600 focus:ring-offset-2">Start Here</button>
-        <button className="px-4 m-3 py-1 text-sm text-red-600 font-semibold rounded-full border border-red-600 hover:text-white hover:bg-red-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-red-600 focus:ring-offset-2">Explore Our Programs</button>
-      </div>
-      </div>
+
       </> //what is this jsx wrap for??
     );
   }
