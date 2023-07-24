@@ -1,5 +1,8 @@
 import React from 'react';
 import ExperienceCard from './ExperienceCard';
+import LightBulbImg from '@site/static/img/your_experience/lightbulb.png';
+import QuestionImg from '@site/static/img/your_experience/question-circle.png';
+import resumeImg from '@site/static/img/your_experience/resume.png';
 
 export default function YourExperience() {
   return (
@@ -12,14 +15,25 @@ export default function YourExperience() {
       </h2>
 
       {/* Wrapper for experiences*/}
-      <div className='w-[72rem] h-[25rem] rounded-[5.4375rem] bg-[#35394A] my-8 shadow-lg flex items-center justify-between px-[4rem]'>
+      <div className='w-[72rem] h-[25rem] rounded-[5.4375rem] bg-[#35394A] my-8 shadow-lg flex items-center justify-between px-[4rem] text-black'>
         <ExperienceCard
+          imageSource={LightBulbImg}
           subtitle={'Conducting User Interviews'}
           text={'Lorem ipsum dolor sit amet, consectetur adipiscing elit'}
           color={'#bbfff3'}
         />
-        <ExperienceCard />
-        <ExperienceCard />
+        <ExperienceCard
+          imageSource={QuestionImg}
+          subtitle={'Analyzing User Interviews'}
+          text={'Lorem ipsum dolor sit amet, consectetur adipiscing elit'}
+          color={'#ffc1e6'}
+        />
+        <ExperienceCard
+          imageSource={resumeImg}
+          subtitle={'Resume Workshop'}
+          text={'Lorem ipsum dolor sit amet, consectetur adipiscing elit'}
+          color={'#a1c4ff'}
+        />
       </div>
     </div>
   );
