@@ -3,6 +3,7 @@ import ExperienceCard from './ExperienceCard';
 import LightBulbImg from '@site/static/img/your_experience/lightbulb.png';
 import QuestionImg from '@site/static/img/your_experience/question-circle.png';
 import resumeImg from '@site/static/img/your_experience/resume.png';
+import ExperienceAlert from './ExperienceAlert';
 
 export default function YourExperience() {
   return (
@@ -21,7 +22,9 @@ export default function YourExperience() {
           subtitle={'Conducting User Interviews'}
           text={'Lorem ipsum dolor sit amet, consectetur adipiscing elit'}
           color={'#bbfff3'}
-        />
+        >
+          <ExperienceAlert text={'New!'} />
+        </ExperienceCard>
         <ExperienceCard
           imageSource={QuestionImg}
           subtitle={'Analyzing User Interviews'}
@@ -33,7 +36,9 @@ export default function YourExperience() {
           subtitle={'Resume Workshop'}
           text={'Lorem ipsum dolor sit amet, consectetur adipiscing elit'}
           color={'#a1c4ff'}
-        />
+        >
+          <ExperienceAlert text={'Most Popular!'} />
+        </ExperienceCard>
       </div>
     </div>
   );
