@@ -16,7 +16,7 @@ export default function YourExperience() {
         <ExperienceCard
           subtitle={'Conducting User Interviews'}
           text={'Lorem ipsum dolor sit amet, consectetur adipiscing elit'}
-          color={'#BBFFF3'}
+          color={'#bbfff3'}
         />
         <ExperienceCard />
         <ExperienceCard />
