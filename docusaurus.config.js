@@ -94,11 +94,6 @@ const config = {
           alt: 'PMC Logo',
           src: 'img/pmc_logo.png',
         },
-        title: 'UBC Product Management Club',
-        logo: {
-          alt: 'PMC Logo',
-          src: 'img/pmc_logo.png',
-        },
         items: [
           // {
           //   type: 'doc',
