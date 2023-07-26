@@ -4,6 +4,7 @@ import LightBulbImg from '@site/static/img/your_experience/lightbulb.png';
 import QuestionImg from '@site/static/img/your_experience/question-circle.png';
 import resumeImg from '@site/static/img/your_experience/resume.png';
 import ExperienceAlert from './ExperienceAlert';
+import Button from '../shared/button';
 
 export default function YourExperience() {
   return (
@@ -43,6 +44,8 @@ export default function YourExperience() {
           <ExperienceAlert text={'Most Popular!'} />
         </ExperienceCard>
       </div>
+
+      <Button text={'Learn More!'} />
     </div>
   );
 }

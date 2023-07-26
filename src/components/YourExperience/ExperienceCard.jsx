@@ -34,7 +34,11 @@ export default function ExperienceCard({
       <img src={imageSource} alt='experience_image' />
       <h3 className='text-center font-bold mt-[0.88rem]'>{subtitle}</h3>
       <p className='text-center'>{text}</p>
-      <div>{isHovered ? children : <></>}</div>
+      <div
+        style={{ opacity: isHovered ? 1 : 0, transition: 'opacity 0.3s ease' }}
+      >
+        {children}
+      </div>
     </div>
   );
 }
