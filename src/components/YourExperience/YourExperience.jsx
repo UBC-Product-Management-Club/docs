@@ -4,15 +4,15 @@ import LightBulbImg from '@site/static/img/your_experience/lightbulb.png';
 import QuestionImg from '@site/static/img/your_experience/question-circle.png';
 import resumeImg from '@site/static/img/your_experience/resume.png';
 import ExperienceAlert from './ExperienceAlert';
-import Button from '../shared/button';
+import ExpandButton from '../shared/ExpandButton';
 
 export default function YourExperience() {
   return (
     <div className='my-28 h-40vh flex flex-col items-center'>
-      <h1 className='text-5xl font-extrabold mb-4'>
+      <h1 className='text-h1 font-extrabold mb-4'>
         What can your experience look like?
       </h1>
-      <h2 className='text-base font-extrabold'>
+      <h2 className='text-h3 font-extrabold'>
         We can be your guide to becoming a better PM!
       </h2>
 
@@ -45,7 +45,7 @@ export default function YourExperience() {
         </ExperienceCard>
       </div>
 
-      <Button text={'Learn More!'} />
+      <ExpandButton text={'Learn More!'} />
     </div>
   );
 }

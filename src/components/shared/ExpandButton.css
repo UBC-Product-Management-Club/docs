@@ -1,0 +1,10 @@
+/* ExpandButton.css */
+.hover\:glow-neon-red:hover {
+  box-shadow: 0 0 10px #fd2a36, 0 0 20px #fd2a36, 0 0 30px #fd2a36;
+  /* Add more box-shadow lines to increase the glow effect if desired */
+}
+
+/* To remove the underline when the link is hovered */
+.no-underline:hover {
+  text-decoration: none;
+}
