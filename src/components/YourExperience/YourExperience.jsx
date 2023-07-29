@@ -22,8 +22,7 @@ export default function YourExperience() {
           imageSource={LightBulbImg}
           subtitle={'Conducting User Interviews'}
           text={'Lorem ipsum dolor sit amet, consectetur adipiscing elit'}
-          hoverColor={'#bbfff3'}
-          color={'#647D79'}
+          color={"cyan"}
         >
           <ExperienceAlert text={'New!'} />
         </ExperienceCard>
@@ -31,15 +30,13 @@ export default function YourExperience() {
           imageSource={QuestionImg}
           subtitle={'Analyzing User Interviews'}
           text={'Lorem ipsum dolor sit amet, consectetur adipiscing elit'}
-          hoverColor={'#ffc1e6'}
-          color={'#926B83'}
+          color={'pink'}
         />
         <ExperienceCard
           imageSource={resumeImg}
           subtitle={'Resume Workshop'}
           text={'Lorem ipsum dolor sit amet, consectetur adipiscing elit'}
-          hoverColor={'#a1c4ff'}
-          color={'#5A6E8F'}
+          color={'blue'}
         >
           <ExperienceAlert text={'Most Popular!'} />
         </ExperienceCard>
