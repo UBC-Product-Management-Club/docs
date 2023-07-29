@@ -22,7 +22,7 @@ export default function HeroContainer() { // put things in here if you want to p
         
        
         <div className="rounded-md flex flex-1 items-center justify-center">
-          <img src={HeroFolder} className="rounded-lg" style={{width: '600', height: '400px'}} alt="" />
+          <img src={HeroFolder} className="rounded-lg" style={{width: '600', height: '400px', borderRadius: '4.375rem'}} alt="" />
           
         </div>
         
