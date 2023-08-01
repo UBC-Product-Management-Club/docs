@@ -2,7 +2,8 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
 import YourExperience from '../YourExperience/YourExperience';
-import Alumni from "../Alumni/Alumni";
+import Alumni from '../Alumni/Alumni';
+import Experts from '../Experts/Experts';
 
 function Feature({ Svg, title, description }) {
   return (
@@ -22,7 +23,8 @@ export default function HomepageFeatures() {
   return (
     <>
       <YourExperience />
-      <Alumni/>
+      <Experts />
+      <Alumni />
     </>
   );
 }
