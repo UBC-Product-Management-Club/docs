@@ -72,11 +72,11 @@ const config = {
     ],
     async function myPlugin(context, options) {
       return {
-        name: "docusaurus-tailwindcss",
+        name: 'docusaurus-tailwindcss',
         configurePostCss(postcssOptions) {
           // Appends TailwindCSS and AutoPrefixer.
-          postcssOptions.plugins.push(require("tailwindcss"));
-          postcssOptions.plugins.push(require("autoprefixer"));
+          postcssOptions.plugins.push(require('tailwindcss'));
+          postcssOptions.plugins.push(require('autoprefixer'));
           return postcssOptions;
         },
       };
@@ -91,8 +91,8 @@ const config = {
       navbar: {
         title: 'UBC Product Management Club',
         logo: {
-          alt: "PMC Logo",
-          src: "img/pmc_logo.png",
+          alt: 'PMC Logo',
+          src: 'img/pmc_logo.png',
         },
         items: [
           // {
@@ -108,10 +108,27 @@ const config = {
           //   position: 'right',
           // },
           // {to: '/blog', label: 'Blog', position: 'right' },
-          {to: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ', label: 'Modules', position:'right'},
-          {to: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ', label: 'Past Events', position:'right'},
-          {to: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ', label: 'Upcoming', position:'right'},
-          {to: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ', label: 'All Events', position:'right'},
+          // 
+          {
+            to: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+            label: 'Modules',
+            position: 'right',
+          },
+          {
+            to: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+            label: 'Past Events',
+            position: 'right',
+          },
+          {
+            to: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+            label: 'Upcoming',
+            position: 'right',
+          },
+          {
+            to: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+            label: 'All Events',
+            position: 'right',
+          },
         ],
       },
       footer: {

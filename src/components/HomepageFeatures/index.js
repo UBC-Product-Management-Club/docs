@@ -1,15 +1,17 @@
-import React from "react";
-import clsx from "clsx";
-import styles from "./styles.module.css";
+import React from 'react';
+import clsx from 'clsx';
+import styles from './styles.module.css';
 import HeroContainer from "../HeroContainer/HeroContainer";
+import YourExperience from '../YourExperience/YourExperience';
+import Alumni from "../Alumni/Alumni";
 
 function Feature({ Svg, title, description }) {
   return (
-    <div className={clsx("col col--4")}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+    <div className={clsx('col col--4')}>
+      <div className='text--center'>
+        <Svg className={styles.featureSvg} role='img' />
       </div>
-      <div className="text--center padding-horiz--md">
+      <div className='text--center padding-horiz--md'>
         <h3>{title}</h3>
         <p>{description}</p>
       </div>
@@ -19,7 +21,10 @@ function Feature({ Svg, title, description }) {
 
 export default function HomepageFeatures() {
   return (
+    <>
     <HeroContainer />
-
+      <YourExperience />
+      <Alumni/>
+    </>
   );
 }
