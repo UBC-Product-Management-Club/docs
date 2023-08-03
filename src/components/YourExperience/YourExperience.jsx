@@ -9,10 +9,10 @@ import ExpandButton from '../shared/ExpandButton';
 export default function YourExperience() {
   return (
     <div className='my-28 h-40vh flex flex-col items-center'>
-      <h1 className='text-h1 font-extrabold mb-4'>
+      <h1 className='text-h1 font-[700] mb-4'>
         What can your experience look like?
       </h1>
-      <h2 className='text-h3 font-extrabold'>
+      <h2 className='text-h3 font-[700]'>
         We can be your guide to becoming a better PM!
       </h2>
 
