@@ -7,7 +7,7 @@ function Alumni() {
         <section className="my-[6.87rem] flex flex-col items-center gap-y-6">
             <AlumniHeader/>
             <AlumniCarousel/>
-            <ExpandButton text={"See All"} className={"relative bottom-12"}/>
+            <ExpandButton text={"See All"} className={"relative bottom-12"} button_type={"primary"}/>
         </section>
     )
 }

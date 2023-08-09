@@ -3,7 +3,7 @@ import HeroImage from "../../../static/img/hero/hero.jpeg";
 import ExpandButton from "../shared/ExpandButton";
 export default function HeroContainer() {
   return (
-    <div className="flex justify-center items-center mt-[6.88rem]">
+    <div className="flex justify-center items-center my-[12rem] mt-[11rem]">
       <div className="flex gap-[7.44rem] justify-center items-center ">
         <div className="font-bold ml-7" style={{ fontSize: "45px" }}>
           <div className="text-h1 font-[700]">
@@ -13,13 +13,15 @@ export default function HeroContainer() {
             <br />
             MASTERY.
           </div>
-          <div className="mt-5 ml-1">
-            <button className="px-6 py-3 text-xl text-white font-semibold rounded-full border border-red-600 bg-red-500 hover:text-white hover:bg-red-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-red-600 focus:ring-offset-2">
-              Start Here
-            </button>
-            <button className="ml-3 px-6 py-3 text-xl text-red-600 font-semibold rounded-full border border-red-600 hover:text-white hover:bg-red-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-red-600 focus:ring-offset-2">
+          <div className="mt-5 ml-1 flex gap-[1.94rem]">
+            <ExpandButton text={"Start Here"} button_type={"primary"} />
+            <ExpandButton
+              text={"Explore Our Programs"}
+              button_type={"secondary"}
+            />
+            {/* <button className="ml-3 px-6 py-3 text-xl text-red-600 font-semibold rounded-full border border-red-600 hover:text-white hover:bg-red-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-red-600 focus:ring-offset-2">
               Explore Our Programs
-            </button>
+            </button> */}
           </div>
         </div>
 

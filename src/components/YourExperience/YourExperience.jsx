@@ -44,6 +44,7 @@ export default function YourExperience() {
       <ExpandButton
         text={"Learn More!"}
         className="relative bottom-12"
+        button_type={"primary"}
       />
     </div>
   );
