@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState } from 'react';
 import AlumniCarousel from './AlumniCarousel';
 import ExpandButton from '../shared/ExpandButton';
@@ -11,6 +12,20 @@ function Alumni() {
       {/* <SeeAllFeature className='relative bottom-12' /> */}
     </section>
   );
+=======
+import React, {useState} from "react";
+import AlumniCarousel from "./AlumniCarousel";
+import ExpandButton from "../shared/ExpandButton";
+
+function Alumni() {
+    return (
+        <section className="my-[6.87rem] flex flex-col items-center gap-y-6">
+            <AlumniHeader/>
+            <AlumniCarousel/>
+            <ExpandButton text={"See All"} className={"relative bottom-12"} button_type={"primary"}/>
+        </section>
+    )
+>>>>>>> main
 }
 
 function AlumniHeader() {
@@ -24,6 +39,7 @@ function AlumniHeader() {
   );
 }
 
+<<<<<<< HEAD
 function SeeAllFeature({ className }) {
   return (
     <a
@@ -39,5 +55,7 @@ function SeeAllFeature({ className }) {
     </a>
   );
 }
+=======
+>>>>>>> main
 
 export default Alumni;
