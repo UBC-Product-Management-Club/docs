@@ -13,13 +13,14 @@ function Alumni() {
 }
 
 function AlumniHeader() {
-    return (
-        <div  className="flex flex-col items-center gap-y-4">
-            <h1 className="text-h1 font-header">Careers - where are our alumni?</h1>
-            <h3 className="text-h3">Our programs prepare you for a career as product manager! </h3>
-        </div>
-    )
+  return (
+    <div className='flex flex-col items-center gap-y-4'>
+      <h1 className='text-h1 font-header'>Careers - where are our alumni?</h1>
+      <h3 className='text-h3'>
+        Our programs prepare you for a career as product manager!{' '}
+      </h3>
+    </div>
+  );
 }
-
 
 export default Alumni;
