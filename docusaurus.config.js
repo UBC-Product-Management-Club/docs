@@ -63,7 +63,9 @@ const config = {
         id: 'modules',
         path: 'modules',
         routeBasePath: 'modules',
-        sidebarPath: require.resolve('./sidebars.js'),
+        sidebarPath: require.resolve('./moduleSidebar.js'),
+        editUrl:
+            'https://github.com/UBC-Product-Management-Club/docs/tree/main',
       },
     ],
     async function myPlugin(context, options) {
