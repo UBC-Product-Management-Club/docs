@@ -51,7 +51,7 @@ function Experts() {
         </div>
       </div>
 
-      <ExpandButton text={'See All 25 Lessons'} />
+      <ExpandButton text={'See All 25 Lessons'} className={"relative bottom-[4rem]"} button_type={"primary"}/>
     </div>
   );
 }

@@ -42,7 +42,7 @@ export default function YourExperience() {
         </ExperienceCard>
       </div>
 
-      <ExpandButton text={'Learn More!'} />
+      <ExpandButton text={'Learn More!'} className={"relative bottom-[3rem]"} button_type={"primary"}/>
     </div>
   );
 }
