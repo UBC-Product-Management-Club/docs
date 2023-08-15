@@ -1,7 +1,6 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
-import HeroContainer from "../HeroContainer/HeroContainer";
 import YourExperience from '../YourExperience/YourExperience';
 import Alumni from "../Alumni/Alumni";
 
@@ -22,7 +21,6 @@ function Feature({ Svg, title, description }) {
 export default function HomepageFeatures() {
   return (
     <>
-    <HeroContainer />
       <YourExperience />
       <Alumni/>
     </>
