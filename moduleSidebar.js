@@ -18,7 +18,7 @@ const sidebars = {
       {
         type: 'category',
         label: 'Recruiting',
-        items: ['recruiting/intro'],
+        items: ['recruiting/intro', 'recruiting/finding-opportunities', 'recruiting/resume-workshop', 'recruiting/interview-prep'],
       },
       {
         type: 'category',
