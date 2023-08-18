@@ -8,6 +8,13 @@ sidebar_position: 1
 
 In this module, we will cover how to research and identify potential market opportunities, user needs, and customer pain points.
 
+:::info
+
+**Director:** Moira Renata   
+**Email:** [`moirarenata.s@gmail.com `](moirarenata.s@gmail.com ).
+
+:::
+
 ## Module Outline
 1.  Defining your Product Vision
     1. What is a Product Vision? Addressing the What and Why

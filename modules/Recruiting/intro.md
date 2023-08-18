@@ -7,6 +7,13 @@ sidebar_position: 1
 ## Module Overview
 Welcome to our transformative course that will empower you with the tools and insights to excel in the competitive realm of recruiting and interviews. This comprehensive journey will equip you with the essential skills and strategies to not only find exceptional opportunities but also present yourself with confidence and finesse throughout the selection process.
 
+:::info
+
+**Director:** Fahim Gbonjubola  
+**Email:** [`fahim@ubcpm.club`](fahim@ubcpm.club).
+
+:::
+
 ## Module Outline
 1. Finding Opportunities
 
