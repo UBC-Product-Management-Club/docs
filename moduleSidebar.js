@@ -13,7 +13,7 @@ const sidebars = {
       {
         type: 'category',
         label: 'Planning',
-        items: ['planning/intro', 'planning/info'],
+        items: ['planning/intro', 'planning/define-product-vision', 'planning/product-strategies', 'planning/product-requirements', 'planning/product-roadmap'],
       },
       {
         type: 'category',
