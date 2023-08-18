@@ -8,27 +8,27 @@ const sidebars = {
       {
         type: 'category',
         label: 'Discovery',
-        items: ['Discovery/intro'],
+        items: ['discovery/intro', 'discovery/identify-the-problem-space', 'discovery/understand-the-user', 'discovery/define-and-prioritize', 'discovery/set-product-objectives'],
       },
       {
         type: 'category',
         label: 'Planning',
-        items: ['Planning/intro', 'Planning/info'],
+        items: ['planning/intro', 'planning/info'],
       },
       {
         type: 'category',
         label: 'Recruiting',
-        items: ['Recruiting/intro'],
+        items: ['recruiting/intro'],
       },
       {
         type: 'category',
         label: 'Execution',
-        items: ['Execution/intro'],
+        items: ['execution/intro'],
       },
       {
         type: 'category',
         label: 'Growth',
-        items: ['Growth/intro'],
+        items: ['growth/intro'],
       },
     ],
      
