@@ -5,32 +5,11 @@ sidebar_position: 1
 # Recruiting Syllabus
 
 ## Module Overview
-This stage involves researching and identifying potential market opportunities, user needs, and customer pain points.
+Welcome to our transformative course that will empower you with the tools and insights to excel in the competitive realm of recruiting and interviews. This comprehensive journey will equip you with the essential skills and strategies to not only find exceptional opportunities but also present yourself with confidence and finesse throughout the selection process.
 
 ## Module Outline
-1. Identify problem space 
-    1. High-level objectives of product (broad challenge you want to approach)
-    2. Types of challenges (value and need oriented vs growth/technical challenges)
-    3. Ensuring your ability to address that problem 
-    4. **Activity: case analysis**
+1. Finding Opportunities
 
-2. Understand the user 
-    1. Approach to user research
-    2. User research techniques (interviews, focus groups, observation, data collection, etc.)
-    3. Conducting and analyzing customer interviews (2 different sessions?)
-    4. **Activity: partner user interview role-playing**
+2. Resume Workshop
 
-3. Define and Prioritize 
-    1. Nail down a problem(s)
-    2. Validate the problem
-    3. Prioritize between problems
-    4. **Activity: case analysis, identifying specific problems based on given data, prioritizing (might be too much work to plan)**
-
-4. Set product objectives
-    1. User personas
-    2. Use cases
-    3. Core values
-    4. Success Metrics
-    5. **Activity: case analysis, extracting below elements from an example product**
-
-
+3. Interview Prep + Mock Interview

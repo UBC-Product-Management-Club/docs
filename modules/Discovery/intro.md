@@ -7,6 +7,13 @@ sidebar_position: 1
 ## Module Overview
 This stage involves researching and identifying potential market opportunities, user needs, and customer pain points.
 
+:::info
+
+**Director:** Borna Shani  
+**Email:** [`borna471@gmail.com`](borna471@gmail.com).
+
+:::
+
 ## Module Outline
 1. Identify problem space 
     1. High-level objectives of product (broad challenge you want to approach)

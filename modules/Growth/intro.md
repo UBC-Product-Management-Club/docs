@@ -5,32 +5,42 @@ sidebar_position: 1
 # Growth Syllabus
 
 ## Module Overview
-This stage involves researching and identifying potential market opportunities, user needs, and customer pain points.
+Welcome to our dynamic course on Product Growth, where we delve into the art and science of nurturing a product's expansion within a competitive marketplace. In this transformative journey, we will equip you with the essential skills and strategies to foster sustainable growth and drive your product towards unprecedented success.
+
+:::info
+
+**Director:** Gerald Lee  
+**Email:** [`leegeraldmoses@gmail.com`](leegeraldmoses@gmail.com).
+
+:::
 
 ## Module Outline
-1. Identify problem space 
-    1. High-level objectives of product (broad challenge you want to approach)
-    2. Types of challenges (value and need oriented vs growth/technical challenges)
-    3. Ensuring your ability to address that problem 
-    4. **Activity: case analysis**
+1. Market Research and Opportunity Identification
+    1. Introduction to growth phase in product management
+    2. Importance of market research in identifying opportunities
+    3. Techniques: data analysis, surveys, interviews
+    4. Identifying market trends and staying ahead of competitors
+    5. Customer segmentation for effective targeting
 
-2. Understand the user 
-    1. Approach to user research
-    2. User research techniques (interviews, focus groups, observation, data collection, etc.)
-    3. Conducting and analyzing customer interviews (2 different sessions?)
-    4. **Activity: partner user interview role-playing**
+2. Understanding User Needs and Pain Points
+    1. Significance of user needs and pain points in growth
+    2. Methods: interviews, usability tests
+    3. Analyzing user data and feedback for insights
+    4. Addressing customer pain points through user-centric approaches
+    5. Incorporating user feedback into product development
 
-3. Define and Prioritize 
-    1. Nail down a problem(s)
-    2. Validate the problem
-    3. Prioritize between problems
-    4. **Activity: case analysis, identifying specific problems based on given data, prioritizing (might be too much work to plan)**
+3. Product Enhancements and Customer Acquisition
+    1. Strategies for enhancing the product based on research and insights
+    2. Prioritization techniques for impactful enhancements
+    3. Effective user acquisition strategies and marketing optimization
+    4. Improving user onboarding experiences for adoption
+    5. Retention initiatives for sustained growth
 
-4. Set product objectives
-    1. User personas
-    2. Use cases
-    3. Core values
-    4. Success Metrics
-    5. **Activity: case analysis, extracting below elements from an example product**
+4. Embracing Change and Managing Growth
+    1. Understanding the need for change in a dynamic market
+    2. Strategies for embracing change and fostering adaptability
+    3. Managing growth challenges and scaling products
+    4. Addressing risks and obstacles to sustained growth
+    5. Continuous learning for long-term success
 
 
