@@ -28,7 +28,7 @@ const sidebars = {
       {
         type: 'category',
         label: 'Growth',
-        items: ['growth/intro'],
+        items: ['growth/intro', 'growth/opportunity-identification', 'growth/understand-user-needs', 'growth/product-enhancements', 'growth/manage-growth'],
       },
     ],
      
