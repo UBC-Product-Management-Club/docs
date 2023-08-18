@@ -23,7 +23,7 @@ const sidebars = {
       {
         type: 'category',
         label: 'Execution',
-        items: ['execution/intro'],
+        items: ['execution/intro', 'execution/development-methodologies', 'execution/stakeholder-management', 'execution/mvp', 'execution/product-launch'],
       },
       {
         type: 'category',
