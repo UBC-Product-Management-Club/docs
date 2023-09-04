@@ -10,7 +10,7 @@ This stage involves researching and identifying potential market opportunities, 
 :::info
 
 **Director:** Borna Shani  
-**Email:** [`borna471@gmail.com`](borna471@gmail.com).
+**Email:** [`borna471@gmail.com`](mailto:borna471@gmail.com).
 
 :::
 

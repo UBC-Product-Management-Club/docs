@@ -10,7 +10,7 @@ Welcome to our transformative course that will empower you with the tools and in
 :::info
 
 **Director:** Fahim Gbonjubola  
-**Email:** [`fahim@ubcpm.club`](fahim@ubcpm.club).
+**Email:** [`fahim@ubcpm.club`](mailto:fahim@ubcpm.club).
 
 :::
 

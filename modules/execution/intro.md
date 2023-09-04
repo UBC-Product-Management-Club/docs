@@ -10,7 +10,7 @@ This stage involves all the work after the product has been planned, researched,
 :::info
 
 **Director:** Gloria Fung  
-**Email:** [`glrfung@gmail.com`](glrfung@gmail.com).
+**Email:** [`glrfung@gmail.com`](mailto:glrfung@gmail.com).
 
 :::
 

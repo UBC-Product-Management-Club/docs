@@ -10,7 +10,7 @@ Welcome to our dynamic course on Product Growth, where we delve into the art and
 :::info
 
 **Director:** Gerald Lee  
-**Email:** [`leegeraldmoses@gmail.com`](leegeraldmoses@gmail.com).
+**Email:** [`leegeraldmoses@gmail.com`](mailto:leegeraldmoses@gmail.com).
 
 :::
 

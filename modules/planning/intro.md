@@ -11,7 +11,7 @@ In this module, we will cover how to research and identify potential market oppo
 :::info
 
 **Director:** Moira Renata   
-**Email:** [`moirarenata.s@gmail.com `](moirarenata.s@gmail.com ).
+**Email:** [`moirarenata.s@gmail.com `](mailto:moirarenata.s@gmail.com ).
 
 :::
 
