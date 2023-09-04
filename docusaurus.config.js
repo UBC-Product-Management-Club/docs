@@ -41,15 +41,11 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/UBC-Product-Management-Club/docs/tree/main',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/UBC-Product-Management-Club/docs/tree/main',
         },
@@ -64,10 +60,12 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'resources',
-        path: 'resources',
-        routeBasePath: 'resources',
-        sidebarPath: require.resolve('./sidebars.js'),
+        id: 'modules',
+        path: 'modules',
+        routeBasePath: 'modules',
+        sidebarPath: require.resolve('./moduleSidebar.js'),
+        editUrl:
+            'https://github.com/UBC-Product-Management-Club/docs/tree/main',
       },
     ],
     async function myPlugin(context, options) {
@@ -110,7 +108,7 @@ const config = {
           // {to: '/blog', label: 'Blog', position: 'right' },
           // 
           {
-            to: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+            to: 'modules/intro',
             label: 'Modules',
             position: 'right',
           },

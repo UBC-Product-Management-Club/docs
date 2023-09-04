@@ -28,7 +28,7 @@ function NavbarItems({items}) {
 }
 function NavbarContentLayout({left, right}) {
   return (
-    <div className="navbar__inner px-5 pt-6 text-xl font-inter">
+    <div className="navbar__inner px-5 pt-6 text-xl font-inter bg-[#262936] fixed top-0 p-4 left-0">
       <div className="navbar__items">{left}</div>
       <div className="navbar__items navbar__items--right">{right}</div>
     </div>
