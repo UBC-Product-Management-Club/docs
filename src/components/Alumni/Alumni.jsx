@@ -15,8 +15,8 @@ function Alumni() {
 function AlumniHeader() {
   return (
     <div className='flex flex-col items-center gap-y-4'>
-      <h1 className='text-h1 font-header'>Careers - where are our alumni?</h1>
-      <h3 className='text-h3'>
+      <h1 className='sm:text-h1 font-header text-2xl'>Careers - where are our alumni?</h1>
+      <h3 className='sm:text-h3 text-base'>
         Our programs prepare you for a career as product manager!{' '}
       </h3>
     </div>
