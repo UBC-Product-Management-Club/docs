@@ -13,7 +13,7 @@ export default function HeroContainer() {
             <br />
             MASTERY.
           </div>
-          <div className='mt-5 ml-1 flex gap-[1.94rem]'>
+          <div className='mt-5 ml-1 flex gap-[1.94rem] sm:flex-row flex-col'>
             <ExpandButton text={'Start Here'} button_type={'primary'} />
             <ExpandButton
               text={'Explore Our Programs'}
@@ -22,7 +22,7 @@ export default function HeroContainer() {
           </div>
         </div>
 
-        <div className='rounded-md flex flex-1'>
+        <div className='rounded-md flex flex-1 lg:visible invisible'>
           <img
             src={HeroImage}
             className='rounded-lg'

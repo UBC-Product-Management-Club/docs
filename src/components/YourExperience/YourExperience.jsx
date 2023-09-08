@@ -13,11 +13,11 @@ export default function YourExperience() {
         What can your experience look like?
       </h1>
       <h2 className='text-h3 font-extrabold'>
-        We can be your guide to becoming a better PM!
+        You can use this as your guide to become a better Product Manager
       </h2>
 
       {/* Wrapper for experiences*/}
-      <div className='w-[72rem] h-[25rem] rounded-[5.4375rem] bg-[#35394A] my-8 shadow-lg flex items-center justify-between px-[4rem] text-black'>
+      <div className='sm:w-[72rem] sm:h-[25rem] h-[64rem] rounded-[5.4375rem] bg-[#35394A] my-8 shadow-lg flex sm:flex-row flex-col items-center justify-around px-[4rem] text-black py-10'>
         <ExperienceCard
           imageSource={LightBulbImg}
           subtitle={'Conducting User Interviews'}
