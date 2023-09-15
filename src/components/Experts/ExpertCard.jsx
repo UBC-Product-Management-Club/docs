@@ -26,7 +26,7 @@ function ExpertCard({ name, content, linkedInUrl, moreInfoUrl, img }) {
       lg:w-[60.375rem] lg:h-[10.25rem] lg:rounded-[1.20275rem] lg:mt-[1.69rem]'>
       <div className='absolute left-[-0.5rem] lg:left-[-1rem] flex'>
         <img src={img} alt={name} className='w-[4.6rem] h-[4.6rem] lg:w-fit lg:h-fit'/>
-        <div className='
+        <div className=' ml-[0.5rem] mt-[0.5rem]
           lg:ml-[2rem] lg:mt-[0.94rem]'>
           {/* Laptop layout */}
           <h3 className='font-[700] text-h2 hidden lg:block'>
