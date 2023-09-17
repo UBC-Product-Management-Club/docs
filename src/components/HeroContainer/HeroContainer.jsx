@@ -3,20 +3,29 @@ import HeroImage from '../../../static/img/hero/hero.jpeg';
 import ExpandButton from '../shared/ExpandButton';
 export default function HeroContainer() {
   return (
-    <div>
-      <div className='text-center text-[3rem] font-[700] leading-[4rem] mt-[8rem] md:text-left'>
-        BEGIN YOUR PRODUCT MANAGEMENT MASTERY.
+    <div className='flex lg:flex-row'>
+      <div className='flex flex-col justify-center items-center md:my-[6rem]'>
+        <div className='text-center text-[3rem] font-[700] leading-[4rem] mt-[8rem] lg:text-left md:mx-[8rem] lg:m-0 lg:max-w-[34.5625rem]'>
+          BEGIN YOUR PRODUCT MANAGEMENT MASTERY.
+        </div>
+        <div className='flex gap-[1.94rem] flex-col mt-[3rem] items-center justify-center md:flex-row md:ml-1 md:items-left'>
+          <ExpandButton
+            text={'Start Here'}
+            button_type={'primary'}
+            className={'w-[4rem]'}
+          />
+          <ExpandButton
+            text={'Explore Our Programs'}
+            button_type={'secondary'}
+            className={'w-[20rem]'}
+          />
+        </div>
       </div>
-      <div className='flex gap-[1.94rem] flex-col mt-[3rem] items-center justify-center md:flex-row md:ml-1'>
-        <ExpandButton
-          text={'Start Here'}
-          button_type={'primary'}
-          className={'w-[4rem]'}
-        />
-        <ExpandButton
-          text={'Explore Our Programs'}
-          button_type={'secondary'}
-          className={'w-[20rem]'}
+      <div className='hidden rounded-md flex flex-1 lg:block'>
+        <img
+          src={HeroImage}
+          className='rounded-lg max-w-[38.5625rem] max-h-[28.875rem] rounded-[4.375rem]'
+          alt='Hero Image'
         />
       </div>
     </div>
