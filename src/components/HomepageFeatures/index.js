@@ -22,11 +22,11 @@ function Feature({ Svg, title, description }) {
 
 export default function HomepageFeatures() {
   return (
-    <>
-    <HeroContainer />
+    <div className='px-[1.6rem]'>
+      <HeroContainer />
       <YourExperience />
       <Experts />
       <Alumni />
-    </>
+    </div>
   );
 }
