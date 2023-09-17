@@ -26,7 +26,7 @@ export default function HomepageFeatures() {
       <HeroContainer />
       <YourExperience />
       <Experts />
-      {/* <Alumni /> */}
+      <Alumni />
     </div>
   );
 }

@@ -16,11 +16,11 @@ export default function ExperienceCard({
 
   return (
     <div
-      className={`group relative w-[18rem] h-[18rem] rounded-[5.4375rem] ${colorVariants[color]} shadow-lg flex flex-col justify-center items-center transition-colors duration-300`}
+      className={`rounded-[3rem] group relative w-[18rem] h-[18rem] md:rounded-[5.4375rem] ${colorVariants[color]} shadow-lg flex flex-col justify-center items-center transition-colors duration-300`}
     >
       <img src={imageSource} alt='experience_image' className='h-[7rem]'/>
-      <h3 className='p md:text-h3 text-center font-bold mt-[0.88rem]'>{subtitle}</h3>
-      <p className='p text-center leading-[1.5rem] mt-[0.25rem]'>{text}</p>
+      <h3 className='text-[1rem] md:text-h3 text-center font-bold mt-[0.88rem] mb-0'>{subtitle}</h3>
+      <p className='text-[1rem] text-center leading-[1.5rem] mt-[0.25rem]'>{text}</p>
       <div className='opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100'>
         {children}
       </div>
