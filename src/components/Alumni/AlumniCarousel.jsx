@@ -19,10 +19,10 @@ function AlumniCarousel() {
     const [currIdx, setCurrIdx] = useState(0)
     return (
         <div className="flex flex-row items-center">
-            <div className="w-[72rem] h-[34rem] rounded-[5.4375rem] bg-[#262936]
+            <div className="sm:w-[72rem] sm:h-[34rem] w-[36rem] h-[68rem] rounded-[5.4375rem] bg-[#262936]
             flex flex-row content-start items-center">
                 <CarouselArrow isRight={false} onClick={() => (currIdx > 0 ? setCurrIdx(currIdx - 1) : null)}/>
-                <div className="h-[34rem] flex flex-wrap px-[6.5rem] py-[2.44rem] gap-x-[4.22rem] gap-y-[2.47rem] content-start items-center justiy-start flex-1">
+                <div className="sm:h-[34rem] h-[68rem] flex sm:flex-wrap sm:flex-row flex-col sm:px-[6.5rem] px-[3rem] py-[2.44rem] gap-x-[4.22rem] gap-y-[2.47rem] content-start items-center justiy-start flex-1">
                     {alumni.slice(currIdx * 4, (currIdx + 1) * 4).map((alum) => (<AlumniCard {...alum}/>))}
                 </div>
                 <CarouselArrow isRight={true} onClick={() => ((currIdx + 1) * 4 <= alumni.length - 1 ? setCurrIdx(currIdx + 1) : null)}/>
@@ -37,7 +37,7 @@ function CarouselArrow({isRight, ...rootDOMAttributes}) {
     const pad = isRight ? "pr-[1.37rem]" : "pl-[1.37rem]" 
     const shape = "w-[2.02156rem] h-[0.57756rem] rounded-[0.625rem] bg-[#D9D9D9]"
     return (
-        <div className={pad + " " + "hover:cursor-pointer"} {...rootDOMAttributes}>
+        <div className={pad + " " + "hover:cursor-pointer sm:visible invisible"} {...rootDOMAttributes}>
             <div className={shape + " " + upper}></div> {/* upper */}
             <div className={"relative top-[7px]" + " " + shape + " " + lower}></div>
         </div>
