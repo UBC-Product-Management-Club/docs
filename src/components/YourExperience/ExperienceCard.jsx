@@ -18,9 +18,9 @@ export default function ExperienceCard({
     <div
       className={`group relative w-[18rem] h-[18rem] rounded-[5.4375rem] ${colorVariants[color]} shadow-lg flex flex-col justify-center items-center transition-colors duration-300`}
     >
-      <img src={imageSource} alt='experience_image' />
-      <h3 className='text-h3 text-center font-bold mt-[0.88rem]'>{subtitle}</h3>
-      <p className='text-center'>{text}</p>
+      <img src={imageSource} alt='experience_image' className='h-[7rem]'/>
+      <h3 className='p md:text-h3 text-center font-bold mt-[0.88rem]'>{subtitle}</h3>
+      <p className='p text-center leading-[1.5rem] mt-[0.25rem]'>{text}</p>
       <div className='opacity-0 transition-opacity duration-300 ease-in-out group-hover:opacity-100'>
         {children}
       </div>
