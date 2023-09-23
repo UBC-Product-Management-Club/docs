@@ -31,10 +31,10 @@ function Experts() {
   ];
   return (
     <div className='lg:my-28 lg:h-40vh flex flex-col items-center'>
-      <h1 className='text-[1.5rem] font-extrabold mb-[0.5rem] lg:text-h1 lg:mb-4'>
+      <h1 className='text-[1.5rem] font-header md:text-2xl lg:text-h1 lg:mb-4'>
         Meet the Experts
       </h1>
-      <h2 className='text-[0.75rem] font-extrabold lg:text-h3'>
+      <h2 className='text-[0.75rem] mb-[2rem] md:text-base lg:text-h3'>
         Learn From Lectures by Specialists!
       </h2>
       <div
