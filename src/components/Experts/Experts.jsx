@@ -10,22 +10,22 @@ function Experts() {
     {
       name: 'Rachit',
       content:
-        'Conducting User Interviews: Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-      linkedIn: '',
+        'Conducting User Interviews: Rachit is a recent UBC CS grad and a co-founder at UBC PMC with a variety of experience in tech',
+      linkedIn: 'https://www.linkedin.com/in/rachit-k-malik/',
       img: Rachit,
     },
     {
       name: 'Jeanine',
       content:
-        'Analysing User Interviews: Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-      linkedIn: '',
+        'Analysing User Interviews: Jeanine is a product manager and people leader who loves pragmatic solutions to big problems',
+      linkedIn: 'https://www.linkedin.com/in/jeaninel/',
       img: Jeanine,
     },
     {
       name: 'Tomas',
       content:
-        'Finding Opportunities Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-      linkedIn: '',
+        'Finding Opportunities: Tomas is passionate about bridging the gap between tech capabilitues and business needs',
+      linkedIn: 'https://www.linkedin.com/in/tomaspiedrahita/',
       img: Tomas,
     },
   ];
