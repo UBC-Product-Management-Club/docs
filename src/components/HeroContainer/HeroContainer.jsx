@@ -14,11 +14,13 @@ export default function HeroContainer() {
             text={'Start Here'}
             button_type={'primary'}
             className={'w-[4rem]'}
+            link={"https://www.google.com"}
           />
           <ExpandButton
             text={'Explore Our Programs'}
             button_type={'secondary'}
             className={'w-[20rem]'}
+            link={'/docs/modules/intro'}
           />
         </div>
       </div>

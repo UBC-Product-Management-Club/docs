@@ -62,11 +62,11 @@ function Experts() {
         </div>
       </div>
 
-      <ExpandButton
+      {/* <ExpandButton
         text={'See All 25 Lessons'}
         className={'relative bottom-[1.5rem] lg:bottom-[4rem]'}
         button_type={'primary'}
-      />
+      /> */}
     </div>
   );
 }
