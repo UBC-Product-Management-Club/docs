@@ -9,15 +9,15 @@ import ExpandButton from '../shared/ExpandButton';
 export default function YourExperience() {
   return (
     <div className='my-28 h-40vh flex flex-col items-center'>
-      <h1 className='text-[1.5rem] md:text-h1 md:font-extrabold md:mb-4 md:text-center md:max-w-[50rem] lg:max-w-full'>
+      <h1 className='text-[1.5rem] font-header lg:text-h1 lg:mb-4 lg:max-w-full text-center'>
         What can your experience look like?
       </h1>
-      <h2 className='text-[0.75rem] md:text-h3 md:font-extrabold '>
+      <h2 className='text-[0.75rem] mb-[2rem] md:text-base lg:text-h3'>
         You can use this as your guide to become a better Product Manager
       </h2>
 
       {/* Wrapper for experiences*/}
-      <div className='md:w-[72rem] md:h-[25rem] h-[64rem] md:rounded-[5.4375rem] bg-[#262936] rounded-[1.25rem] md:bg-[#35394A] my-8 shadow-lg flex md:flex-row flex-col items-center justify-around px-[4rem] text-black py-10'> 
+      <div className='md:w-[50rem] md:h-[20rem] lg:h-[25rem] lg:w-[72rem] h-[64rem] md:rounded-[5.4375rem] bg-[#262936] rounded-[1.25rem] md:bg-[#35394A] my-8 shadow-lg flex md:flex-row flex-col items-center justify-around px-[4rem] md:px-[2rem] lg:px-[4rem] text-black py-10'>
         <ExperienceCard
           imageSource={LightBulbImg}
           subtitle={'Conducting User Interviews'}
