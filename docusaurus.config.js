@@ -112,18 +112,18 @@ const config = {
             label: "Modules",
             position: "right",
           },
+          // {
+          //   to: "modules/intro",
+          //   label: "Past Events",
+          //   position: "right",
+          // },
+          // {
+          //   to: "modules/intro",
+          //   label: "Upcoming",
+          //   position: "right",
+          // },
           {
-            to: "modules/intro",
-            label: "Past Events",
-            position: "right",
-          },
-          {
-            to: "modules/intro",
-            label: "Upcoming",
-            position: "right",
-          },
-          {
-            to: "modules/intro",
+            to: "https://ubcpm.club",
             label: "All Events",
             position: "right",
           },
