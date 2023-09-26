@@ -3,18 +3,27 @@ import AlumniCard from "./AlumniCard";
 
 import Rachit from "@site/static/img/alumni/rachit.png"
 import Rithvik from "@site/static/img/alumni/rithvik.png"
+import Jon from "@site/static/img/alumni/jon.png"
+import Scott from "@site/static/img/alumni/scott.jpg"
+import Sol from "@site/static/img/alumni/sol.png"
+import Philman from "@site/static/img/alumni/philman.png"
+import Courtney from "@site/static/img/alumni/courtney.png"
+import Rebecca from "@site/static/img/alumni/rebecca.png"
+import Andy from "@site/static/img/alumni/andy.png"
+import Yen from "@site/static/img/alumni/yen.png"
 
 function AlumniCarousel() {
     const alumni = [
         {name:"Rachit Malik", title:"Product Manager", company:"Microsoft", faculty:"Computer Science", img: Rachit},     
-        {name:"Rithvik Alluri", title:"Software Engineer", company:"Microsoft", faculty:"Computer Science", img: Rithvik},
-        {name:"Temp One", title:"Software Engineer", company:"Microsoft", faculty:"Psychology", img:"None"},                 
-        {name:"Temp Two", title:"CEO", company:"Microsoft", faculty:"English", img:"None"},     
-        {name:"Temp Three", title:"Janitor", company:"Microsoft", faculty:"Medicine", img:"None"},
-        {name:"Temp Three", title:"Janitor", company:"Microsoft", faculty:"Medicine", img:"None"},
-        {name:"Temp Three", title:"Janitor", company:"Microsoft", faculty:"Medicine", img:"None"},
-        {name:"Temp Three", title:"Janitor", company:"Microsoft", faculty:"Medicine", img:"None"},
-        {name:"Temp Three", title:"Janitor", company:"Microsoft", faculty:"Medicine", img:"None"},
+        {name:"Jon Kim", title:"Product Manager", company:"Microsoft", faculty:"BUCS", img: Jon},     
+        {name:"Scott Langille", title:"Product Manager", company:"Tesla", faculty:"BUCS", img: Scott},                 
+        {name:"Sol Lee", title:"Product Manager", company:"Conexxa.ai", faculty:"Computer Science", img: Sol},   
+        {name:"Rithvik Alluri", title:"Software Engineer", company:"Microsoft", faculty:"Computer Science", img: Rithvik},  
+        {name:"Philman Yeung", title:"Product Manager", company:"Microsoft", faculty:"BCom", img: Philman},
+        {name:"Courtney Young", title:"Product Designer", company:"Snack", faculty:"CS + Biology", img: Courtney},
+        {name:"Rebecca Xie", title:"Software Engineer", company:"Datadog", faculty:"Math + CS", img: Rebecca},
+        {name:"Andy Luu", title:"Technical PM", company:"Global Relay", faculty:"Integrated Engineering", img: Andy},
+        {name:"Yen Ching Tan", title:"Business Analyst", company:"Accenture", faculty:"BUCS", img: Yen},
     ]
     const [currIdx, setCurrIdx] = useState(0)
     return (
