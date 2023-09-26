@@ -1,7 +1,7 @@
 import React from "react";
 import "./ExpandButton.css";
 
-function ExpandButton({ text, className, button_type, link }) {
+function ExpandButton({ text, className, button_type }) {
   const buttonVariants = {
     primary_bg:
       "hover:glow-neon-red group-hover:bg-red-600 group-hover:shadow-md group-hover:ring-4 group-hover:ring-red-600 bg-[#FD2A36]",
@@ -12,8 +12,7 @@ function ExpandButton({ text, className, button_type, link }) {
   };
 
   return (
-    <a
-      href={link}
+    <div
       className={
         `min-w-[15.125rem] h-[2.99663rem] rounded-[2.5625rem] flex content-center\
         justify-center text-button cursor-pointer transition duration-200 ease-in-out
@@ -22,12 +21,11 @@ function ExpandButton({ text, className, button_type, link }) {
         " " +
         className
       }
-      target="_blank"
     >
       <p className={`mt-2 mx-[2rem] ${buttonVariants[button_type + "_text"]}`}>
         {text}
       </p>
-    </a>
+    </div>
   );
 }
 
