@@ -21,7 +21,7 @@ export default function YourExperience() {
         <ExperienceCard
           imageSource={LightBulbImg}
           subtitle={'Conducting User Interviews'}
-          text={'Lorem ipsum dolor sit amet, consectetur adipiscing elit'}
+          text={'Master the art of user interviews in this interactive course.'}
           color={'cyan'}
         >
           <ExperienceAlert text={'New!'} />
@@ -29,13 +29,13 @@ export default function YourExperience() {
         <ExperienceCard
           imageSource={QuestionImg}
           subtitle={'Analyzing User Interviews'}
-          text={'Lorem ipsum dolor sit amet, consectetur adipiscing elit'}
+          text={'Unlock insights from user interviews with expert analysis techniques.'}
           color={'pink'}
         />
         <ExperienceCard
           imageSource={resumeImg}
           subtitle={'Resume Workshop'}
-          text={'Lorem ipsum dolor sit amet, consectetur adipiscing elit'}
+          text={'Jumpstart your Product Management career with our Resume Workshop.'}
           color={'blue'}
         >
           <ExperienceAlert text={'Most Popular!'} />
