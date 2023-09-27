@@ -4,6 +4,7 @@ import ExpertCard from './ExpertCard';
 import Rachit from '../../../static/img/experts/rachit.png';
 import Jeanine from '../../../static/img/experts/jeanine.png';
 import Tomas from '../../../static/img/experts/tomas.png';
+import BrowserOnly from '@docusaurus/BrowserOnly';
 
 function Experts() {
   const experts = [
@@ -47,16 +48,20 @@ function Experts() {
         >
           <div className='flex-col'>
             {experts.map((expert, index) => (
-              <ExpertCard
-                key={index}
-                name={expert.name}
-                content={expert.content}
-                linkedInUrl={expert.linkedIn}
-                moreInfoUrl={
-                  'https://media.tenor.com/kHcmslgKHEAAAAAM/rock-one-eyebrow-raised-rock-staring.gif'
+              <BrowserOnly>
+                { () =>
+                  <ExpertCard
+                    key={index}
+                    name={expert.name}
+                    content={expert.content}
+                    linkedInUrl={expert.linkedIn}
+                    moreInfoUrl={
+                      'https://media.tenor.com/kHcmslgKHEAAAAAM/rock-one-eyebrow-raised-rock-staring.gif'
+                    }
+                    img={expert.img}
+                  />
                 }
-                img={expert.img}
-              />
+              </BrowserOnly>
             ))}
           </div>
         </div>
