@@ -16,7 +16,7 @@ function useNavbarItems() {
   return useThemeConfig().navbar.items;
 }
 function NavbarItems({items}) {
-  const lastItem = "text-white flex items-center justify-center h-8 w-28 rounded-3xl bg-[#FD2A36]"
+  const lastItem = "text-white h-full w-28 rounded-3xl bg-[#FD2A36] text-center"
   const spacing = " mx-6"
   return (
     <>
