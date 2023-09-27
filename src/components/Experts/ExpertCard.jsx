@@ -4,8 +4,8 @@ import InfoImg from '../../../static/img/experts/icons/info.png';
 
 function ExpertCard({ name, content, linkedInUrl, moreInfoUrl, img }) {
   let words = content.split(' ');
-  let mobileContent = name + ': ';
-  let laptopContent = mobileContent + content;
+  let mobileContent = '';
+  let laptopContent = content;
 
   // Measuring the space for mobile content
   const canvas = document.createElement('canvas');
@@ -24,7 +24,7 @@ function ExpertCard({ name, content, linkedInUrl, moreInfoUrl, img }) {
 
   return (
     <div
-      className='bg-[#2B3950] flex relative w-[23.76669rem] h-[6rem] md:w-[40rem] md:h-[8rem] mb-[2rem] md:mt-[0.87rem] rounded-[0.64rem]
+      className='bg-[#2B3950] flex relative w-[21.76669rem] h-[6rem] md:w-[40rem] md:h-[8rem] mb-[2rem] md:mt-[0.87rem] rounded-[0.64rem]
       lg:w-[60.375rem] lg:h-[10.25rem] md:rounded-[1.20275rem] lg:mt-[1.69rem]'
     >
       <div className='absolute left-[-0.5rem] lg:left-[-2rem] flex'>
@@ -42,7 +42,7 @@ function ExpertCard({ name, content, linkedInUrl, moreInfoUrl, img }) {
             {laptopContent}
           </h3>
           {/* Mobile Layout */}
-          <h3 className='h-fit text-[1rem] mt-[0.5rem] mr-[2rem] m-0 font-[700] md:text-[1.25rem] lg:hidden'>
+          <h3 className='h-fit text-[0.8rem] mt-[0.5rem] mr-[2rem] m-0 font-[700] md:text-[1.25rem] lg:hidden'>
             {mobileContent}...
             <a className='text-[1rem] text-[#FD2A36]' href={moreInfoUrl}>
               {' '}

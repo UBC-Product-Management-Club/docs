@@ -39,7 +39,7 @@ function Experts() {
         Learn From Lectures by Specialists!
       </h2>
       <div
-        className='bg-[#262936] w-[27rem] h-[29rem] md:w-[50rem] md:h-[37rem] rounded-[1.25rem] my-[0rem]
+        className='bg-[#262936] w-[23.5rem] h-[29rem] md:w-[50rem] md:h-[37rem] rounded-[1.25rem] my-[0rem]
         lg:w-[72rem] lg:h-[42rem] lg:my-[2.38rem] lg:rounded-[5.4375rem]'
       >
         <div
@@ -56,7 +56,7 @@ function Experts() {
                     content={expert.content}
                     linkedInUrl={expert.linkedIn}
                     moreInfoUrl={
-                      'https://media.tenor.com/kHcmslgKHEAAAAAM/rock-one-eyebrow-raised-rock-staring.gif'
+                      'expert.'
                     }
                     img={expert.img}
                   />
