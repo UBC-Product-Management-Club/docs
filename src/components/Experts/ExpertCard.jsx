@@ -51,14 +51,15 @@ function ExpertCard({ name, content, linkedInUrl, moreInfoUrl, img }) {
           </h3>
           {/* Icons */}
           <div className='flex gap-x-[0.44rem] mt-[0.51rem] lg:gap-[1.12rem] lg:mt-[1.44rem]'>
-            <a href={linkedInUrl}>
+            <a href={linkedInUrl}
+            target="_blank">
               <img
                 src={LinkedInImg}
                 alt='linkedIn url'
                 className='w-[1rem] h-[1rem] md:w-[2rem] md:h-[2rem] lg:w-fit lg:h-fit'
               />
             </a>
-            <a href={moreInfoUrl}>
+            <a href={moreInfoUrl} className='pointer-events-none' target="_blank">
               <img
                 src={InfoImg}
                 alt='more information'

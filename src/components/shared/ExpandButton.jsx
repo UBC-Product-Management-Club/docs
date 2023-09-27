@@ -12,8 +12,7 @@ function ExpandButton({ text, className, button_type }) {
   };
 
   return (
-    <a
-      href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    <div
       className={
         `min-w-[15.125rem] h-[2.99663rem] rounded-[2.5625rem] flex content-center\
         justify-center text-button cursor-pointer transition duration-200 ease-in-out
@@ -26,7 +25,7 @@ function ExpandButton({ text, className, button_type }) {
       <p className={`mt-2 mx-[2rem] ${buttonVariants[button_type + "_text"]}`}>
         {text}
       </p>
-    </a>
+    </div>
   );
 }
 
