@@ -22,7 +22,7 @@ function Feature({ Svg, title, description }) {
 
 export default function HomepageFeatures() {
   return (
-    <div className='px-[1.6rem]'>
+    <div className='px-[1.6rem] overflow-x-hidden'>
       <HeroContainer />
       <YourExperience />
       <Experts />
