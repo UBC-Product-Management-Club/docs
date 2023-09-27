@@ -17,7 +17,7 @@ export default function YourExperience() {
       </h2>
 
       {/* Wrapper for experiences*/}
-      <div className="md:w-[50rem] md:h-[20rem] lg:h-[25rem] lg:w-[72rem] h-[64rem] md:rounded-[5.4375rem] bg-[#262936] rounded-[1.25rem] md:bg-[#35394A] my-8 shadow-lg flex md:flex-row flex-col items-center justify-around px-[4rem] md:px-[2rem] lg:px-[4rem] text-black py-10">
+      <div className="md:w-[50rem] md:h-[20rem] lg:h-[25rem] lg:w-[72rem] h-[64rem] md:rounded-[5.4375rem] bg-[#262936] rounded-[1.25rem] md:bg-[#35394A] my-8 shadow-lg flex md:flex-row flex-col items-center justify-around px-[2.7rem] md:px-[2rem] lg:px-[4rem] text-black py-10">
         <ExperienceCard
           imageSource={LightBulbImg}
           subtitle={"Conducting User Interviews"}
