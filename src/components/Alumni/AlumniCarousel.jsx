@@ -28,7 +28,7 @@ function AlumniCarousel() {
     const [currIdx, setCurrIdx] = useState(0)
     return (
         <div className="flex flex-row items-center">
-            <div className="rounded-[1.25rem] w-[27rem] h-[57rem] md:w-[72rem] md:h-[38rem] md:rounded-[5.4375rem] bg-[#262936] flex flex-row content-start items-center justify-center">
+            <div className="rounded-[1.25rem] w-[23.5rem] h-[57rem] md:w-[72rem] md:h-[38rem] md:rounded-[5.4375rem] bg-[#262936] flex flex-row content-start items-center justify-center">
                 <CarouselArrow isRight={false} onClick={() => (currIdx > 0 ? setCurrIdx(currIdx - 1) : null)}/>
                 <div className="mt-[16rem] md:mt-[6rem] md:h-[34rem] h-[68rem] flex sm:flex-wrap flex-row flex-col md:px-[6.5rem] md:py-[2.44rem] gap-x-[4.22rem] gap-y-[2.47rem] content-start items-center justiy-start flex-1 md:mb-[4rem]">
                     {alumni.slice(currIdx * 4, (currIdx + 1) * 4).map((alum) => (<AlumniCard {...alum}/>))}

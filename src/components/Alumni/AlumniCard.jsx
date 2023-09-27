@@ -20,8 +20,8 @@ function AlumniCard({name, title, company, faculty, img}) {
         "Datadog": DataDog
     }
     return (
-        <div className="w-[23.76669rem] md:h-[13.03331rem] rounded-[1.25rem] md:rounded-[6.25rem] bg-[#2B3950]
-            flex flex-row py-[1.25rem] md:py-[2.06rem] content-center
+        <div className="w-[21.76669rem] md:h-[13.03331rem] rounded-[1.25rem] md:rounded-[6.25rem] bg-[#2B3950]
+            flex flex-row py-[1.25rem] md:w-[23.76669rem] md:py-[2.06rem] content-center
             font-content">
             <img src={img} onError={imgOnError} className="object-cover w-[8rem] h-[8rem] rounded-full mt-[0.56rem] ml-[1.69rem] mr-[1.8rem]
                 drop-shadow-[0px_6px_11px_rgba(0, 0, 0, 0.25)]"/>
