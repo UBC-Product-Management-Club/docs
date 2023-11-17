@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 # Setting Product Objectives
-### Session slide deck can be found [here](https://drive.google.com/file/d/195HzAGZzUaEDCJWV-79bGB8GjFlI37OY/view?usp=sharing) (combined with next session)
+### Session slide deck can be found [here](https://drive.google.com/file/d/195HzAGZzUaEDCJWV-79bGB8GjFlI37OY/view?usp=sharing) (combined with previous session)
 
 ### Session Key Points:
 
